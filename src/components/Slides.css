@@ -1,0 +1,32 @@
+#navigation {
+  margin-bottom: 2rem;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+#navigation button {
+  margin-right: 2rem;
+  padding: 10px 2px;
+  border: none;
+  background-color: rgb(25, 158, 66);
+  color: white;
+  /* border-radius: 10%; */
+  cursor: pointer;
+}
+
+#navigation button:disabled {
+  background-color: rgb(197, 244, 213);
+}
+
+#slide {
+  border: 1px solid rgb(235, 191, 191);
+  padding: 1rem;
+  min-height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+button {
+  min-width: 80px;
+}
